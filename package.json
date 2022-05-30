@@ -1,6 +1,6 @@
 {
   "name": "@browseai/eslint-plugin-appsscript",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ESLint plugin for AppsScript",
   "keywords": [
     "eslint",
