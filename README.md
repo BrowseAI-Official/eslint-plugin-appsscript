@@ -11,11 +11,11 @@ $ npm i -D eslint @browseai/eslint-plugin-appsscript
 
 ## Usage
 
-Add `@browseai/eslint-plugin-appsscript` to the plugins section of your `.eslintrc` configuration file.
+Add `@browseai/appsscript` to the plugins section of your `.eslintrc` configuration file. You can omit the `eslint-plugin-` prefix:
 
 ```jsonc
 {
-  "plugins": ["@browseai/eslint-plugin-appsscript"]
+  "plugins": ["@browseai/appsscript"]
 }
 ```
 
@@ -24,7 +24,7 @@ Then configure the rules you want to use under the rules section.
 ```jsonc
 {
   "rules": {
-    "@browseai/eslint-plugin-appsscript/expect-private-functions": "error"
+    "@browseai/appsscript/expect-private-functions": "error"
   }
 }
 ```
@@ -34,7 +34,7 @@ You can also tell ESLint about the environment variables provided by Apps Script
 ```jsonc
 {
   "env": {
-    "@browseai/eslint-plugin-appsscript/globals": true
+    "@browseai/appsscript/globals": true
   }
 }
 ```
