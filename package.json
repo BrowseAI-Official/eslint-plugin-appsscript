@@ -1,0 +1,19 @@
+{
+  "name": "@browseai/eslint-plugin-appsscript",
+  "version": "1.0.0",
+  "description": "ESLint plugin for AppsScript",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin",
+    "appsscript"
+  ],
+  "repository": "BrowseAI-Official/eslint-plugin-appsscript",
+  "license": "MIT",
+  "author": "info@browse.ai",
+  "main": "index.js",
+  "scripts": {
+    "customPublish": "npm publish --access=public"
+  }
+}
+
